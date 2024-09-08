@@ -16,7 +16,11 @@ For CarModelDataset, send an e-mail to andy_eduard.catruna@upb.ro.
 
 Each dataset should have a separate folder with ```train.csv``` and ```test.csv``` files and an ```images/``` folder.
 
-The .csv files should contain the following columns: ```img_path, make_class, model_class, year_class, full_class``` where the classes are indices. 
+The .csv files should contain the following columns: 
+
+```img_path, make_class, model_class, year_class, full_class```
+
+where the classes are indices. 
 
 ## Training and Evaluation
 
@@ -36,7 +40,7 @@ To run the experiments in the paper, utilize the following scripts:
     - Run ```scripts/autovit_vit.sh``` for *ViT* models
     - Run ```scripts/autovit_tasks.sh``` for training on multiple tasks including *orientation*, *mileage*, and *price estimation*.
 
-The weights of the pretrained top-performing models can be found [here](https://drive.google.com/drive/folders/1ekb0Yz_ZOuKDY_n8993M9mwjrIXSgdwo?usp=sharing).
+The weights of the pretrained top-performing *Hierarchical Conditioning* models can be found [here](https://drive.google.com/drive/folders/1ekb0Yz_ZOuKDY_n8993M9mwjrIXSgdwo?usp=sharing).
 
 ## Citation
 
