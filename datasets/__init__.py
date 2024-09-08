@@ -1,0 +1,3 @@
+from .autovit_multitask import AutovitMultiTaskCars
+from .stanford_multitask import StanfordCarsMultiTask
+from .car_model_multitask import CarModelMultiTaskCars
